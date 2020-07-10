@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+      
+	  Course: CIS 181, WW1
+	  Name: Edwin Gerena
+      Date:   July 12, 2020
+
+      Filename:   contactUs.html
+
+   -->
+
+<title>Contact Us</title>
+<br>
+<link href="jpf_reset.css" rel="stylesheet" />
+   <link href="jpf_styles.css" rel="stylesheet" />
+   <link href="jpf_sudoku.css" rel="stylesheet" />
+<meta charset="utf-8">
+<style>
+h1{text-align: center;}
+.footer {
+	position: fixed;
+	left: center;
+	bottom: 0;
+	width: 100%;
+	background-color: ccffff;
+	color: black;
+	text-align: auto;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: gray;
+  padding: 20px;
+}
+</style>
+
+</head>
+
+		<body background-color: ccffff>
+		<body style="background-color:powderblue;">
+			<header>
+			<img src="jpf_logo.png" alt="Japanese Puzzle Factory" id="logoimg" />
+			<nav> <a id="navicon" href="#"><img src="jpf_navicon.png" alt="" /></a>
+			<ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stores.html">Store</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+			<li><a href="benefits.html">Benefits</a></li>
+			</ul>
+			</nav>
+			</header>
+
+<body>
+<br>
+	<h1>Contact Us</h1>
+	<hr>
+	<center><p> Enjoy the challenges of Our Sudoku Website latest games.<br/> 
+	If you want to become a premier customer</p> </center>
+<div class="footer">
+    <p>Sudoku Chicago Enterprises &mdash; 8407 S Chicago Avenue &mdash; Justice, IL 60777&mdash;(773) 555-2531 </p>
+</div>
+		
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="eMail">Email</label>
+    <input type="text" id="eMail" name="email" placeholder="Your full email address..">
+    <label for="level">Membership Level</label>
+    <select id="level" name="level">
+      <option value="beginner">Beginner</option>
+      <option value="medium">Medium</option>
+      <option value="expert">Expert</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+	<div class="footer">
+    <p>Sudoku Chicago Enterprises &mdash; 8407 S Chicago Avenue &mdash; Justice, IL 60777&mdash;(773) 555-2531 </p>
+</div>
+</body>
+</html>
